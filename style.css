@@ -55,6 +55,15 @@ body {
         text-align: center;
         /* flex-direction: column-reverse */
     }
+    .hero-section h1 {
+        font-size: 32px;
+    }
+    .hero-section p {
+        font-size: 16px;
+    }
+    .hero-section .get-started{
+        font-size: 12px;
+    }
     .text-content {
         max-width: 100%;
     }
