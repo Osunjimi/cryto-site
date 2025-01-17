@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.hero-section .get-started {
+    background-color: #010316;
+    color: #f1f1f2;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.hero-section .get-started:hover {
+    /* background-color: #f1f1f2; */
+    background-color: transparent;
+    outline: 2px solid #010316;
+    color: #010316;
+    /* color: #010316; */
+}
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-section {
+    padding: 60px 20px;
+    background-color: #092804;
+    color: #f1f1f2;
+}
+
+.team-card {
+    background-color: #f1f1f2;
+    color: #010316;
+    border: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #010316;
+    color: #f1f1f2;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .hero-section{
+        padding: 0 20px;
+    }
+
+    .hero-section h1{
+        font-size: 32px;
+        line-height: 5px;
+    }
+    .hero-section p{
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 0px !important;
+    }
+
+    .team-card img {
+        width: 100px;
+        height: 100px;
+    }
+    
+}
